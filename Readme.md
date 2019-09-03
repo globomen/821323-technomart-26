@@ -1,6 +1,6 @@
 # Личный проект «Техномарт»
 
-* Студент: [Алексей](https://up.htmlacademy.ru/htmlcss/26/user/821323).
+* Студент: [Алексей Ворожко](https://up.htmlacademy.ru/htmlcss/26/user/821323).
 * Наставник: [Андрей Ефимов](https://htmlacademy.ru/profile/efiand).
 
 ---
