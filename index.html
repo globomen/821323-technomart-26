@@ -349,14 +349,27 @@
         </p>
       </div>
     </footer>
-    <div class="hidden">
-      <button type="button">Отправить</button>
-      <!-- Здесь будет форма -->
-    </div>
-    <div class="hidden">
+    <div class="visually-hidden">
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <p>
+          <label for="user-name">Ваше имя:</label>
+          <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="user-email">Ваш e-mail:</label>
+          <input id="user-email" type="text" name="email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="user-message">Текст письма:</label>
+          <input id="user-message" type="text" name="message" placeholder="В свободной форме">
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
       <button type="button">Закрыть</button>
-      <img src="https://via.placeholder.com/150x100" alt="">
-      <!-- Здесь будет карта -->
+    </div>
+    <div class="visually-hidden">
+      <button type="button">Закрыть</button>
+      <img src="img/map.png" width="300" height="158" alt="Офис компании по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
     </div>
   </body>
 
