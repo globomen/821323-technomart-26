@@ -1,3 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: none;
+
+  background-color: #ffffff;
+  background-image: url("bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.main-header-logo img {
+  background-color: #ee3643;
+}
+
+.main-header-logo img:hover {
+  background-color: #ca2c37;
+}
+
+.main-header-logo img:focus {
+  background-color: #ba2732;
+}
+
+.user-navigation {
+  line-height: 18px;
+
+  background-color: #293449;
+}
+
+.header-wrap {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+
+  background-color: #f3f7f8;
+}
+
+.header-title {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.tel {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.main-navigation {
+  background-color: #32425c;
+}
+
+.user-panel,
+.user-navigation-list,
+.site-navigation {
+  list-style: none;
+}
+
+.user-panel a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.user-panel a:hover {
+  color: #ee3643;
+}
+
+.user-panel a:focus {
+  opacity: 0.3;
+}
+
+.user-navigation a,
+.site-navigation a {
+  color: #ffffff;
+}
+
+.user-navigation a:hover {
+  background-color: #212a3a;
+}
+
+.user-navigation a:focus {
+  background-color: #161d29;
+}
+
+.site-navigation a:hover {
+  background-color: #293449;
+}
+
+.site-navigation a:focus {
+  background-color: #1d2739;
+}
+
+
+
+.main-footer {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+}
+
+.main-footer-logo img {
+  background-color: #ee3643;
+}
+
+.footer-wrap {
+  background-color: #32425c;
+}
+
+.footer-contacts {
+  font-size: 16px;
+  line-height: 18px;
+
+  background-color: #293449;
+}
+
+.footer-list,
+.social-list {
+  list-style: none;
+}
+
+.footer-list a,
+.social-list a {
+  color: #f1f5f7;
+}
+
+.social-list a:hover,
+.social-list a:focus,
+.footer-copyright a:focus {
+  color: #ee3643;
+}
+
+.footer-list-bottom a,
+.footer-copyright a {
+  color: #ffd180;
+}
+
+.footer-list a:hover,
+.footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+.footer-list a:focus {
+  opacity: 0.5;
+}
+
+
 .hidden {
   display: none;
 }
