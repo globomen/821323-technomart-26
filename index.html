@@ -27,7 +27,7 @@
             <a href="#nowhere">Корзина: 0</a>
           </li>
           <li>
-            <a class="user-navigation_green" href="#nowhere">Оформить заказ</a>
+            <a class="user-navigation__green" href="#nowhere">Оформить заказ</a>
           </li>
         </ul>
       </div>
@@ -39,10 +39,10 @@
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <ul class="profile-navigation">
           <li>
-            <a class="profile-link profile-link_login" href="#nowhere">Войти</a>
+            <a class="profile-link profile-link__login" href="#nowhere">Войти</a>
           </li>
           <li>
-            <a class="profile-link profile-link_reg" href="#nowhere">Регистрация</a>
+            <a class="profile-link profile-link__reg" href="#nowhere">Регистрация</a>
           </li>
         </ul>
       </div>
@@ -73,36 +73,36 @@
       </nav>
     </header>
     <main class="page">
-      <section class="promo-section">
+      <section class="promo">
         <ul class="promo-navigation">
           <li class="promo-navigation__item new">
             <p>
               <span>Материалы</span>
-              <span class="button promo-navigation__button">на любой вкус</span>
+              <a class="button promo-navigation__button" href="#nowhere">на любой вкус</a>
             </p>
           </li>
           <li class="promo-navigation__item">
             <p>
               <span>Инструмент</span>
-              <span class="button promo-navigation__button">на все случаи</span>
+              <a class="button promo-navigation__button" href="#nowhere">на все случаи/a>
             </p>
           </li>
           <li class="promo-navigation__item">
             <p>
               <span>Техника</span>
-              <span class="button promo-navigation__button">для стройки</span>
+              <a class="button promo-navigation__button" href="#nowhere">для стройки</a>
             </p>
           </li>
           <li class="promo-navigation__item">
             <p>
               <span>Скидки 50%</span>
-              <span class="button promo-navigation__button">на 350 товаров</span>
+              <a class="button promo-navigation__button" href="#nowhere">на 350 товаров</a>
             </p>
           </li>
           <li class="promo-navigation__item">
             <p>
               <span>Доставка</span>
-              <span class="button promo-navigation__button">бесплатно</span>
+              <a class="button promo-navigation__button" href="#nowhere">бесплатно</a>
             </p>
           </li>
         </ul>
@@ -120,8 +120,8 @@
             <a class="button promo-slider__button" href="catalog.html">Открыть каталог</a>
           </li>
         </ul>
-        <button class="control promo-slider__control_next" type="button">Назад</button>
-        <button class="control promo-slider__control_back" type="button">Вперед</button>
+        <button class="control promo__control-next" type="button">Назад</button>
+        <button class="control promo__control-back" type="button">Вперед</button>
       </section>
       <section class="popular-goods">
         <header class="page-header">
@@ -226,15 +226,15 @@
           </li>
         </ul>
       </section>
-      <section class="services-section">
+      <section class="services">
         <header>
           <h2>Сервисы</h2>
           <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
           <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         </header>
-        <div class="services-box">
-          <div class="services-nav-col">
-            <ul class="services-nav__list">
+        <div class="services__box">
+          <div class="services__nav-col">
+            <ul class="services__nav-list">
               <li>
                 <a href="#nowhere">Доставка</a>
               </li>
@@ -246,8 +246,8 @@
               </li>
             </ul>
           </div>
-          <div class="services-content-col">
-            <ul class="services-content__list">
+          <div class="services__content-col">
+            <ul class="services__content-list">
               <li>
                 <h3>Доставка</h3>
                 <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!</p>
@@ -273,27 +273,27 @@
           </div>
         </div>
       </section>
-      <section class="aside-section">
-        <div class="aside-content-col">
+      <section class="page-about">
+        <div class="page-about__content-col">
           <h1>Компания «Техномарт»</h1>
           <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
             равнодушными любителей сэкономить на гастарбайтерах.</p>
           <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
             Техномарт работает со многими транспортными компаниями:</p>
-          <ul class="aside-content__list">
+          <ul class="page-about__content-list">
             <li>Деловые линии</li>
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
-          <a class="button aside-content__button" href="#nowhere">Подробнее о компании</a>
+          <a class="button page-about__button-link" href="#nowhere">Подробнее о компании</a>
         </div>
-        <div class="aside-contacts-col">
+        <div class="page-about__contacts-col">
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-          <p class="aside-map">
+          <p class="page-about__map">
             <img src="img/map.png" width="300" height="158" alt="Наш адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
           </p>
-          <a class="button aside-contacts__button" href="mailto:mail@htmlacademy.ru">Заблудились? Напишите нам!</a>
+          <a class="button page-about__button-message" href="mailto:mail@htmlacademy.ru">Заблудились? Напишите нам!</a>
         </div>
       </section>
     </main>
@@ -306,7 +306,7 @@
         <p>
           <a class="footer-tel" href="tel:+78125550555">+7 (812) 555-05-55</a>
         </p>
-        <ul class="footer-list footer-list_top">
+        <ul class="footer-list footer-list__top">
           <li>
             <a href="#nowhere">Компания</a>
           </li>
@@ -322,7 +322,7 @@
             <a href="#nowhere">Контакты</a>
           </li>
         </ul>
-        <ul class="footer-list footer-list_bottom">
+        <ul class="footer-list footer-list__bottom">
           <li>
             <a href="#nowhere">Материалы</a>
           </li>
@@ -343,13 +343,13 @@
         <div class="footer-social">
           <ul class="social-list">
             <li>
-              <a class="social-list__item_vk" href="#nowhere" target="_blank" aria-label="Вконтакте">Вконтакте</a>
+              <a class="social-list__item-vk" href="#nowhere" target="_blank" aria-label="Вконтакте">Вконтакте</a>
             </li>
             <li>
-              <a class="social-list__item_fb" href="#nowhere" target="_blank" aria-label="Фейсбук">Фейсбук</a>
+              <a class="social-list__item-fb" href="#nowhere" target="_blank" aria-label="Фейсбук">Фейсбук</a>
             </li>
             <li>
-              <a class="social-list__item_in" href="#nowhere" target="_blank" aria-label="Инстаграм">Инстаграм</a>
+              <a class="social-list__item-in" href="#nowhere" target="_blank" aria-label="Инстаграм">Инстаграм</a>
             </li>
           </ul>
         </div>
