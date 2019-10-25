@@ -465,9 +465,15 @@ a {
 
 .footer__tel {}
 
+.footer__box {}
+
 .footer__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 560px;
 
   list-style: none;
 }
@@ -478,6 +484,20 @@ a {
 
 .footer__list--bottom {
   color: #ffd180;
+}
+
+.footer__item {}
+
+.footer__item a {
+  display: block;
+}
+
+.footer__item a:hover {
+  text-decoration: underline;
+}
+
+.footer__item a:active {
+  opacity: 0.5;
 }
 
 .footer__bottom {
