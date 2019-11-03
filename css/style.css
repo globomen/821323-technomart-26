@@ -282,7 +282,7 @@ a {
 .popular__inner {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 45px;
+  margin-bottom: 33px;
 }
 
 .popular__stock-list {
@@ -310,12 +310,15 @@ a {
 
 .popular__promo-title {
   display: block;
-  margin-top: 20px;
   margin-left: 20px;
 
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
+}
+
+.popular__promo-title--category {
+  margin-top: 20px;
 }
 
 .popular__promo-title--stock {
@@ -345,8 +348,6 @@ a {
 }
 
 .popular__slider {
-  /* position: relative; */
-
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -355,36 +356,111 @@ a {
 .popular__slider-list {
   width: 620px;
   height: 268px;
-  margin: 0;
+  margin-top: 20px;
   padding: 0;
-  /* position: absolute;
-  top: -120px;
-  left: 0; */
+  position: relative;
 
   list-style: none;
 }
 
 .popular__slider-item {}
 
+.popular__slider-item p {
+  position: absolute;
+  top: 42px;
+  left: 25px;
+  z-index: 2;
+}
+
+.popular__slider-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .popular__slider-title {
+  position: absolute;
+  top: -7px;
+  left: 24px;
+  z-index: 2;
+
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
-.popular__slider-tabs {}
+.popular__slider-tabs {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+
+.popular__slider-tabs--next {
+  left: 295px;
+  bottom: 38px;
+}
+
+.popular__slider-tabs--back {
+  left: 315px;
+  bottom: 38px;
+
+  background-color: #ee3643;
+  border: 2px solid #ffffff;
+}
 
 .popular__slider-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 38px;
+  position: absolute;
+  left: 25px;
+  bottom: 24px;
+  z-index: 10;
+
+  font-size: 14px;
+  line-height: 18px;
   text-transform: uppercase;
 
   background-color: #ee3643;
 }
 
-.control {}
+.popular__slider-button:hover {
+  background-color: #ca2c37;
+}
 
-.control--next {}
+.popular__slider-button:active {
+  background-color: #ba2732;
+}
 
-.control--back {}
+.control {
+  position: absolute;
+  width: 22px;
+  height: 40px;
+
+  background-color: transparent;
+  border: none;
+}
+
+.control--next {
+  top: 115px;
+  left: 25px;
+
+  background-image: url(../img/icon-left.svg);
+}
+
+.control--back {
+  top: 115px;
+  right: 25px;
+
+  background-image: url(../img/icon-right.svg);
+}
 
 .popular__catalog {}
 
