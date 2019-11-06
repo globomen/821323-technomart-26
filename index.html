@@ -12,7 +12,7 @@
   <body>
     <header class="header">
       <div class="header__top">
-        <div class="container header__inner">
+        <div class="header__inner container">
           <a class="header__logo" href="index.html">
             <img src="img/logo-technomart.svg" width="137" height="22" alt="Логотип компании Техномарт">
           </a>
@@ -22,10 +22,10 @@
           </form>
           <ul class="user-nav__list">
             <li class="user-nav__item">
-              <a class="user-link user-link--bookmarks" href="#nowhere">Закладки: 0</a>
+              <a class="user-link" href="#nowhere">Закладки: 0</a>
             </li>
             <li class="user-nav__item">
-              <a class="user-link user-link--basket" href="#nowhere">Корзина: 0</a>
+              <a class="user-link" href="#nowhere">Корзина: 0</a>
             </li>
             <li class="user-nav__item">
               <a class="user-link user-link--green" href="#nowhere">Оформить заказ</a>
@@ -76,10 +76,10 @@
         </nav>
       </div>
     </header>
-    <main class="page">
-      <section class="container popular">
+    <main class="container">
+      <section class="popular">
         <h2 class="visually-hidden">Популярное</h2>
-        <section class="popular__promo-box">
+        <section>
           <h2 class="visually-hidden">Промо блок</h2>
           <ul class="popular__category-list">
             <li class="popular__category-item new">
@@ -150,14 +150,14 @@
           <ul class="catalog__list">
             <li class="catalog__item">
               <div class="actions">
-                <a class="button buy" href="#nowhere">Купить</a>
-                <a class="button bookmark" href="#nowhere">В закладки</a>
+                <a class="buy" href="#nowhere">Купить</a>
+                <a class="bookmark" href="#nowhere">В закладки</a>
               </div>
+              <h3 class="catalog__title">
+                <a href="#nowhere">Перфоратор BOSCH BFG 9000</a>
+              </h3>
               <p class="catalog__image">
                 <img src="img/perforator-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
-              </p>
-              <p class="catalog__title">
-                <a href="#nowhere">Перфоратор BOSCH BFG 9000</a>
               </p>
               <p>
                 <del class="discount">32500 Р.</del>
@@ -166,14 +166,14 @@
             </li>
             <li class="catalog__item">
               <div class="actions">
-                <a class="button buy" href="#nowhere">Купить</a>
-                <a class="button bookmark" href="#nowhere">В закладки</a>
+                <a class="buy" href="#nowhere">Купить</a>
+                <a class="bookmark" href="#nowhere">В закладки</a>
               </div>
+              <h3 class="catalog__title">
+                <a href="#nowhere">Перфоратор BOSCH BFG 3000</a>
+              </h3>
               <p class="catalog__image">
                 <img src="img/perforator-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
-              </p>
-              <p class="catalog__title">
-                <a href="#nowhere">Перфоратор BOSCH BFG 3000</a>
               </p>
               <p>
                 <del class="discount">22500 Р.</del>
@@ -182,14 +182,14 @@
             </li>
             <li class="catalog__item">
               <div class="actions">
-                <a class="button buy" href="#nowhere">Купить</a>
-                <a class="button bookmark" href="#nowhere">В закладки</a>
+                <a class="buy" href="#nowhere">Купить</a>
+                <a class="bookmark" href="#nowhere">В закладки</a>
               </div>
+              <h3 class="catalog__title">
+                <a href="#nowhere">Перфоратор BOSCH BFG 6000</a>
+              </h3>
               <p class="catalog__image">
                 <img src="img/perforator-3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
-              </p>
-              <p class="catalog__title">
-                <a href="#nowhere">Перфоратор BOSCH BFG 6000</a>
               </p>
               <p>
                 <del class="discount">30500 Р.</del>
@@ -198,14 +198,14 @@
             </li>
             <li class="catalog__item new">
               <div class="actions">
-                <a class="button buy" href="#nowhere">Купить</a>
-                <a class="button bookmark" href="#nowhere">В закладки</a>
+                <a class="buy" href="#nowhere">Купить</a>
+                <a class="bookmark" href="#nowhere">В закладки</a>
               </div>
+              <h3 class="catalog__title">
+                <a href="#nowhere">Перфоратор BOSCH BFG 2000</a>
+              </h3>
               <p class="catalog__image">
                 <img src="img/perforator-4.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
-              </p>
-              <p class="catalog__title">
-                <a href="#nowhere">Перфоратор BOSCH BFG 2000</a>
               </p>
               <p>
                 <del class="discount"></del>
@@ -264,12 +264,12 @@
         </section>
       </section>
       <section class="services">
-        <header class="container services__title">
+        <header>
           <h2>Сервисы</h2>
           <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
           <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         </header>
-        <div class="container services__inner">
+        <div class="services__inner">
           <div class="services__nav-col">
             <ul class="services__nav-list">
               <li>
@@ -310,7 +310,7 @@
           </div>
         </div>
       </section>
-      <section class="container about">
+      <section class="about">
         <div class="about__content-col">
           <h1>Компания «Техномарт»</h1>
           <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
@@ -326,7 +326,7 @@
         </div>
         <div class="about__contacts-col">
           <h2>Контакты</h2>
-          <p class="about__contacts-title">Вы можете забрать товар сами, заехав в наш офис:</p>
+          <p>Вы можете забрать товар сами, заехав в наш офис:</p>
           <p class="about__map">
             <img src="img/map.png" width="300" height="158" alt="Наш адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
           </p>
